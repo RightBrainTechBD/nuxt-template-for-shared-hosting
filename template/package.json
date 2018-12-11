@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-template-for-shared-hosting",
+  "version": "1.0.0",
+  "description": "A Nuxt PWA starter template for Deploying in Apache Shared Hosting",
+  "author": "(RightBrainTechBD <www.jbc.bd@gmail.com>)",
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "latest",
+    "@nuxtjs/router": "^1.1.0",
+    "nuxt": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.6.1",
+    "eslint-plugin-html": "^2.0.0",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
