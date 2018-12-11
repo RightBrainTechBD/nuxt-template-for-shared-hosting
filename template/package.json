@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-template-for-shared-hosting",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "A Nuxt PWA starter template for Deploying in Apache Shared Hosting",
-  "author": "(RightBrainTechBD <www.jbc.bd@gmail.com>)",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
